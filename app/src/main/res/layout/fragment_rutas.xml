@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rutasFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/mapa"
+        android:rotation="90"
+        android:scaleType="center"
+        android:scaleX="1.6"
+        android:scaleY="2"
+        android:src="@drawable/mapa" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="21dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="148dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="21dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="148dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

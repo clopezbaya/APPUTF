@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">MI TREN</string>
+    <string name="logoSuperior">Mi tren</string>
+    <string name="logoCentral">Mi tren</string>
+    <string name="title_activity_navigation_drawer_mi_tren">MI TREN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">TREN METROPOLITANO</string>
+    <string name="nav_header_subtitle">COCHABAMBA</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_about">Acerca De</string>
+    <string name="mapa">Mapa</string>
+
+    <!-- TODO: Activiti Principal -->
+    <string name="btnRutas">Rutas</string>
+    <string name="btnDestino">Destino</string>
+    <string name="btnConoceCocha">Conoce Cochabamba</string>
+    <string name="btnConoceMiTren">Conoce Mi Tren</string>
+    <string name="btnEducacionVial">Educacion Vial</string>
+    <string name="btnHorarios">Horarios</string>
+
+    <!-- TODO: Conoce Mi Tren -->
+    <string name="btnCMTApedaderoDoble">APEADERO DOBLE</string>
+    <string name="btnCMTApedadero">APEADERO</string>
+    <string name="btnCMTLineaRoja">LINEA ROJA</string>
+    <string name="btnCMTSeñalizacion">SEÑALIZACION</string>
+
+    <!-- TODO: Fragment Educacion Vial -->
+    <string name="btnVialCrucePeatonal">CRUCE PEATONAL</string>
+    <string name="btnVialParadaTransporte">PARADA TRANSPORTE PUBLICO</string>
+    <string name="btnVialSemaforo">SEMAFORO</string>
+
+
+    <!-- TODO: Fragment Conoce Cochabamba -->
+    <string name="btnCCHospitales">HOSPITALES Y CENTROS DE SALUD</string>
+    <string name="btnCCPolicia">ESTACIONES DE POLICIA</string>
+    <string name="btnCCColegios">COLEGIOS Y UNIVERSIDADES</string>
+    <string name="btnCCBancos">BANCOS</string>
+    <string name="btnCCComercio">COMERCIO</string>
+    <string name="btnCCGastronomia">GASTRONOMIA</string>
+    <string name="btnCCLugaresTuristicos">LUGARES TURISTICOS</string>
+    <string name="btnCCParquesRecreativos">PARQUES RECREATIVOS</string>
+    <string name="btnCCInformacion">CENTROS DE INFORMACION</string>
+    <string name="btnCCCentrosDeportivos">CENTROS DEPORTIVOS</string>
+    <string name="btnCCHoteles">HOTELES</string>
+
+
+    <!-- TODO: Fragment Conoce Cochabamba - Ubicaciones  -->
+    <string name="btnCCUHospitales">HOSPITALES Y CENTROS DE SALUD UBICACIONES GPS</string>
+    <string name="btnCCUPolicia">ESTACIONES POLICIALES UBICACIONES GPS</string>
+    <string name="btnCCUColegios">COLEGIOS Y UNIVERSIDADES UBICACIONES GPS</string>
+    <string name="btnCCUBancos">BANCOS UBICACIONES GPS</string>
+    <string name="btnCCUComercio">COMERCIO UBICACIONES GPS</string>
+    <string name="btnCCUGastronomia">GASTRONOMIA UBICACIONES GPS</string>
+    <string name="btnCCUTurismo">TURISMO UBICACIONES GPS</string>
+    <string name="btnCCUParques">PARQUES UBICACIONES GPS</string>
+    <string name="btnCCUInformacion">CENTROS DE INFORMACION UBICACIONES GPS</string>
+    <string name="btnCCUCDeportivo">CENTROS DEPORTIVOS UBICACIONES GPS</string>
+    <string name="btnCCUHotele">HOTELES UBICACIONES GPS</string>
+
+
+    <!-- TODO: Fragment Conoce Cochabamba - Ubicaciones - Bancos  -->
+    <string name="btnCCUBUnionCentral">BANCO UNION</string>
+    <string name="btnCCUBFieRoja">BANCO FIE</string>
+    <string name="btnCCUBBisa">BANCO BISA</string>
+    <string name="btnCCUBUnionRoja">BANCO UNION</string>
+    <string name="btnCCUBUnionVerde">BANCO UNION</string>
+    <string name="btnCCUBBnbVerde">BANCO BNB</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="title_activity_mapas">Map</string>
+
+</resources>

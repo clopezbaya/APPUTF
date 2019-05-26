@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/rutas"
+            android:icon="@mipmap/rutas24"
+            android:title="Rutas" />
+        <item
+            android:id="@+id/destino"
+            android:icon="@mipmap/destino24"
+            android:title="Destino" />
+        <item
+            android:id="@+id/tarjeta"
+            android:icon="@mipmap/tarjeta24"
+            android:title="Tarjeta" />
+        <item
+            android:id="@+id/conoceCocha"
+            android:icon="@mipmap/conocecochabamba24"
+            android:title="Conoce Cochabamba" />
+        <item
+            android:id="@+id/eduVial"
+            android:icon="@mipmap/educacionvial24"
+            android:title="Educacion Vial" />
+        <item
+            android:id="@+id/conoceMiTren"
+            android:icon="@mipmap/conocemitren24"
+            android:title="Conoce Mi Tren" />
+        <item
+            android:id="@+id/noticias"
+            android:icon="@mipmap/noticias"
+            android:title="Noticias" />
+        <item
+            android:id="@+id/facebook"
+            android:icon="@mipmap/facebook"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/twiter"
+            android:icon="@mipmap/twiter"
+            android:title="Twiter" />
+        <item
+            android:id="@+id/instagram"
+            android:icon="@mipmap/instagram"
+            android:title="Instagram" />
+    </group>
+
+</menu>

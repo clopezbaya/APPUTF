@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".conoceCochaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <Button
+            android:id="@+id/btnCabecera"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="false"
+            android:text="@string/btnConoceCocha"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCHospitales"
+                    android:src="@mipmap/hospitales" />
+
+                <TextView
+                    android:id="@+id/textViewCDS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="20dp"
+                    android:layout_gravity="left"
+                    android:text="@string/btnCCHospitales"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCPolicia"
+                    android:src="@mipmap/estaciondepolicia" />
+
+                <TextView
+                    android:id="@+id/textViewEP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="20dp"
+                    android:text="@string/btnCCPolicia"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCColegios"
+                    android:src="@mipmap/colegiosyuniversidades" />
+
+                <TextView
+                    android:id="@+id/textViewCU"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_gravity="left"
+                    android:text="@string/btnCCColegios"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCBancos"
+                    android:src="@mipmap/bancos" />
+
+                <TextView
+                    android:id="@+id/textViewBA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="20dp"
+                    android:text="@string/btnCCBancos"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnAD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCHospitales"
+                    android:src="@mipmap/comercio" />
+
+                <TextView
+                    android:id="@+id/textViewCO"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="20dp"
+                    android:text="@string/btnCCComercio"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCGastronomia"
+                    android:src="@mipmap/gastronomia" />
+
+                <TextView
+                    android:id="@+id/textViewGA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="20dp"
+                    android:text="@string/btnCCGastronomia"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCLugaresTuristicos"
+                    android:src="@mipmap/lugaresturisticos" />
+
+                <TextView
+                    android:id="@+id/textViewLUT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="left"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="25dp"
+                    android:text="@string/btnCCLugaresTuristicos"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnLR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCParquesRecreativos"
+                    android:src="@mipmap/parquesrecreativos" />
+
+                <TextView
+                    android:id="@+id/textViewPR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="20dp"
+                    android:text="@string/btnCCParquesRecreativos"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnIN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCInformacion"
+                    android:src="@mipmap/centrosdeinformacion" />
+
+                <TextView
+                    android:id="@+id/textViewIN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="20dp"
+                    android:text="@string/btnCCInformacion"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnCD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCCentrosDeportivos"
+                    android:src="@mipmap/centrosdeportivos" />
+
+                <TextView
+                    android:id="@+id/textViewCD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="20dp"
+                    android:text="@string/btnCCCentrosDeportivos"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnHO"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/btnCCHoteles"
+                    android:src="@mipmap/hoteles" />
+
+                <TextView
+                    android:id="@+id/textViewH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="20dp"
+                    android:text="@string/btnCCHoteles"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>
